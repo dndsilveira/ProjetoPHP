@@ -1,0 +1,39 @@
+tr {
+  text-align: center !important;
+}
+
+.modal-geral {
+  z-index: 9999999999999999999999 !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .inputModalBusca {
+    display: block !important;
+  }
+
+  .input-group-append {
+    display: flex !important;
+  }
+
+  .codigo-filtro {
+     max-width: 150px;
+     width: 150px;
+     min-width: 150px;
+  }
+
+  .nav-responsive1 {
+      display: none;
+   }
+
+   .content-wrapper .sidebar-collapse, .content-wrapper .form-control-sidebar,
+   .content-wrapper .sidebar-collapse, .content-wrapper .form-control-sidebar~.input-group-append,
+   .content-wrapper .sidebar-collapse, .content-wrapper .sidebar-search-results {
+      display: block !important;
+   }
+}
+
+@media only screen and (max-width: 991px) {
+   .nav-responsive1 {
+      display: flex;
+   }
+}

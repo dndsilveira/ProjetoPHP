@@ -1,0 +1,190 @@
+.desktop {
+   display: inline-block !important;
+}
+
+.mobile {
+   display: none !important;
+}
+
+@media only screen and (max-width: 1627px) {
+   .desktop {
+      display: none !important;
+   }
+
+   .mobile {
+      display: inline-block !important;
+   }
+}
+
+@media only screen and (max-width: 725px) {
+   .desktop {
+      font-size: 12px !important;
+   }
+
+   .mobile {
+      font-size: 12px !important;
+   }
+}
+
+.filtroNome {
+   max-width: 28%;
+}
+
+.filtroCodigo {
+   margin-left: 10px;
+   max-width: 10%;
+}
+
+.filtroCodigoBarras {
+   margin-left: 10px;
+   max-width: 10%;
+}
+
+.barraPesquisa {
+   margin-top: 30px !important;
+   max-width: 100% !important;
+}
+
+.filtros {
+   margin-left: 10px !important;
+}
+
+.processar {
+   margin-right: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+   .filtroNome {
+      display: block !important;
+   }
+   
+   .filtroCodigo {
+      display: block !important;
+      max-width: 20% !important;
+   }
+   
+   .filtroCodigoBarras {
+      display: block !important;
+      max-width: 20% !important;
+   }
+}
+
+@media only screen and (max-width: 725px) {
+   .filtroNome {
+      max-width: 40% !important;
+   }
+
+   .filtroCodigo {
+      max-width: 25% !important;
+   }
+   
+   .filtroCodigoBarras {
+      max-width: 25% !important;
+   }
+}
+
+@media only screen and (max-width: 625px) {
+   .filtroNome {
+      min-width: 50% !important;
+      max-width: 60% !important;
+   }
+
+   .filtroCodigo {
+      min-width: 30% !important;
+      max-width: 30% !important;
+   }
+   
+   .filtroCodigoBarras {
+      min-width: 40% !important;
+      max-width: 40% !important;
+   }
+
+   .responsive3 {
+      margin-top: 15px !important;
+      margin-left: 0px !important;
+   }
+
+   .responsive4 {
+      margin-top: 15px !important;
+      margin-left: 0px !important;
+      margin-right: 10px !important;
+   }
+}
+
+@media only screen and (max-width: 556px) {
+   .filtroCodigo {
+      min-width: 20% !important;
+      max-width: 20% !important;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .filtroNome {
+      min-width: 50% !important;
+   }
+
+   .filtroCodigo {
+      min-width: 22% !important;
+   }
+   
+   .filtroCodigoBarras {
+      min-width: 22% !important;
+   }
+}
+
+@media only screen and (max-width: 420px) {
+   .filtroNome {
+      min-width: 80% !important;
+      max-width: 80% !important;
+   }
+
+   .filtroCodigo {
+      min-width: 80% !important;
+      max-width: 80% !important;
+      margin-left: 0px !important;
+      margin-top: 15px !important;
+   }
+   
+   .filtroCodigoBarras {
+      min-width: 80% !important;
+      max-width: 80% !important;
+   }
+
+   .responsive5 {
+      margin-top: 15px !important;
+   }
+}
+
+@media only screen and (max-width: 335px) {
+   .filtroNome {
+      min-width: 75% !important;
+      max-width: 75% !important;
+   }
+
+   .filtroCodigo {
+      min-width: 75% !important;
+      max-width: 75% !important;
+   }
+   
+   .filtroCodigoBarras {
+      min-width: 75% !important;
+      max-width: 75% !important;
+   }
+}
+
+@media only screen and (max-width: 280px) {
+   .filtroNome {
+      min-width: 65% !important;
+      max-width: 65% !important;
+   }
+
+   .filtroCodigo {
+      min-width: 65% !important;
+      max-width: 65% !important;
+   }
+   
+   .filtroCodigoBarras {
+      min-width: 65% !important;
+      max-width: 65% !important;
+   }
+}

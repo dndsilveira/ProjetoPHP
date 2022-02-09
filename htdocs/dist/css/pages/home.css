@@ -1,0 +1,29 @@
+.wllpp {
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url(dist/img/wallpaper/logo.png);
+   background-position: center;
+   opacity: 0.2;
+   background-repeat: no-repeat;
+}
+
+.wllpp2 {
+   position: relative;
+   z-index: 5;
+}
+
+.mt-5px {
+   margin-top: 5px;
+}
+
+.info-box, .info-box-icon {
+   min-width: 70px !important;
+}
+
+.info-box, .info-box-content, .info-box-text {
+   white-space: normal !important;
+}

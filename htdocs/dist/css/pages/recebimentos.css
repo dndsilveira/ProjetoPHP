@@ -1,0 +1,273 @@
+table { page-break-inside:auto }
+tr    { page-break-inside:avoid; page-break-after:auto }
+thead { display:table-header-group }
+tfoot { display:table-footer-group }
+
+.linhaBranca td {
+   background-color: rgba(255,255,255,1) !important;
+}
+
+.linhaBrancaTitulo td {
+   background-color: rgba(240,240,240,1) !important;
+}
+
+.linhaBrancaTitulo th {
+   background-color: rgba(240,240,240,1) !important;
+}
+
+.linhaBrancaTotal td {
+   background-color: rgba(230,230,230,1) !important;
+}
+
+.linhaPreta td {
+   background-color: rgba(42,50,58,1) !important;
+}
+
+.linhaPretaTitulo td {
+   background-color: rgba(27,35,43,1) !important;
+}
+
+.linhaPretaTitulo th {
+   background-color: rgba(27,35,43,1) !important;
+}
+
+.linhaPretaTotal td {
+   background-color: rgba(17,25,33,1) !important;
+}
+
+.input {
+   margin-left: 8px;
+}
+
+.my-filtros {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.my-filtros-2 {
+   margin-top: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.my-filtros-3 {
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 20px;
+}
+
+.nomes {
+   max-width: 25%;
+   min-width: 25%;
+   width: 25%;
+}
+
+.codigo {
+  max-width: 10%;
+}
+
+.filtro {
+  height: calc(2.25rem + 2px);
+  margin-top: 22px;
+}
+
+.barraPesquisa {
+  margin-top: 30px !important;
+  max-width: 100% !important;
+}
+
+.table thead th {
+   border-bottom: 0px;
+}
+
+.table > .totalGeral {
+   border-top: none;
+}
+
+.botoes {
+   margin-top: 0px;
+}
+
+@media only screen and (max-width: 1559px) {
+   .codigo {
+      max-width: 12%;
+   }
+
+   .nomes {
+      max-width: 30%;
+      min-width: 30%;
+      width: 30%;
+   }
+
+   .botoes {
+      margin-top: 20px;
+   }
+
+   .dataInicio, .dataFinal {
+      max-width: 25%;
+      min-width: 25%;
+      width: 25%;
+      margin-top: 10px;
+   }
+
+}
+
+@media only screen and (max-width: 1330px) {
+   .codigo {
+      max-width: 15%;
+   }
+
+   .nomes {
+      max-width: 35%;
+      min-width: 35%;
+      width: 35%;
+   }
+
+   .dataInicio, .dataFinal {
+      max-width: 25%;
+      min-width: 25%;
+      width: 25%;
+   }
+
+}
+
+@media only screen and (max-width: 1130px) {
+   .codigo {
+      max-width: 25%;
+      min-width: 25%;
+      width: 25%;
+   }
+
+   .nomes {
+      max-width: 60%;
+      min-width: 60%;
+      width: 60%;
+   }
+
+   .dataInicio, .dataFinal {
+      max-width: 35%;
+      min-width: 35%;
+      width: 35%;
+      margin-top: 10px;
+   }
+
+   .nomeUsuario {
+      margin-top: 10px;
+   }
+
+   .codigoUsuario {
+      margin-top: 10px;
+   }
+
+   .analitico {
+      margin-top: 40px;
+   }
+
+   .botoes {
+      margin-top: -10px;
+   }
+
+}
+
+@media only screen and (max-width: 991px) {
+   .botoes {
+      margin-top: 20px;
+   }
+}
+
+@media only screen and (max-width: 929px) {
+   .botoes {
+      margin-top: -10px;
+   }
+}
+
+@media only screen and (max-width: 830px) {
+
+   .nomes {
+      max-width: 70%;
+      min-width: 70%;
+      width: 70%;
+   }
+
+   .dataInicio, .dataFinal {
+      max-width: 50%;
+      min-width: 50%;
+      width: 50%;
+   }
+
+   .botoes {
+      margin-top: 20px;
+   }
+
+}
+
+@media only screen and (max-width: 670px) {
+
+   .nomes {
+      max-width: 70%;
+      min-width: 70%;
+      width: 70%;
+   }
+
+   .codigo {
+      max-width: 30%;
+      min-width: 30%;
+      width: 30%;
+   }
+
+}
+
+@media only screen and (max-width: 595px) {
+   .botoes {
+      margin-left: 10px;
+      margin-top: -10px;
+   }
+}
+
+@media only screen and (max-width: 485px) {
+   .dataInicio, .dataFinal {
+      max-width: 70%;
+      min-width: 70%;
+      width: 70%;
+   }
+
+   .nomes {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+   }
+
+   .codigo {
+      max-width: 50%;
+      min-width: 50%;
+      width: 50%;
+   }
+
+}
+
+@media only screen and (max-width: 485px) {
+   .dataInicio, .dataFinal {
+      max-width: 1000%;
+      min-width: 100%;
+      width: 100%;
+   }
+
+}
+
+@media only screen and (max-width: 320px) {
+   .codigo {
+      max-width: 70%;
+      min-width: 70%;
+      width: 70%;
+   }
+
+}
+
+@media only screen and (max-width: 264px) {
+   .input {
+      margin-left: 0px;
+      margin-right: 10px;
+      margin-top: -20px;
+   }
+
+}

@@ -1,0 +1,43 @@
+Options -Indexes
+
+# ErrorDocument 403 
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
+
+ReWriteRule ^index$ index.php [QSA,L]
+ReWriteRule ^login$ login.php [QSA,L]
+ReWriteRule ^logout$ logout.php [QSA,L]
+ReWriteRule ^errobanco$ errobanco.php [QSA,L]
+
+ReWriteRule ^ajuda$ index.php?pag=ajuda [QSA,L]
+ReWriteRule ^home$ index.php?pag=home [QSA,L]
+ReWriteRule ^pedidos$ index.php?pag=pedidos [QSA,L]
+ReWriteRule ^promocoes$ index.php?pag=promocoes [QSA,L]
+ReWriteRule ^vendasvendedor$ index.php?pag=vendas-vendedor [QSA,L]
+ReWriteRule ^grafico-ticketmedio$ index.php?pag=grafico-ticketmedio [QSA,L]
+ReWriteRule ^debitoscliente$ index.php?pag=debitoscliente [QSA,L]
+ReWriteRule ^saidasprodutos$ index.php?pag=saidasprodutos [QSA,L]
+ReWriteRule ^recebimentos$ index.php?pag=recebimentos [QSA,L]
+
+# PRODUTOS #
+ReWriteRule ^produtos$ index.php?pag=produtos [QSA,L]
+ReWriteRule ^produtos/$ index.php?pag=produtos [QSA,L]
+ReWriteRule ^produtos/lotelocal/([0-9]+)$ index.php?pag=produtos&id_produto_lotelocal=$1&func=lotelocal [QSA,L]
+
+# CLIENTES #
+ReWriteRule ^clientes$ index.php?pag=clientes [QSA,L]
+ReWriteRule ^clientes/$ index.php?pag=clientes [QSA,L]
+ReWriteRule ^clientes/edit/([0-9]+)$ index.php?pag=clientes&id_cliente=$1&func=edit [QSA,L]
+
+# SAÍDAS POR CLIENTES #
+ReWriteRule ^saidascliente$ index.php?pag=saidas-cliente [QSA,L]
+ReWriteRule ^saidascliente/([0-9]+)$ index.php?pag=saidas-cliente&id_cliente=$1 [QSA,L]

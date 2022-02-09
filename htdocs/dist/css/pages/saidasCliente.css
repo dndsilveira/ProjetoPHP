@@ -1,0 +1,551 @@
+table { page-break-inside:auto }
+tr    { page-break-inside:avoid; page-break-after:auto }
+thead { display:table-header-group }
+tfoot { display:table-footer-group }
+
+.linhaBranca td {
+   background-color: rgba(255,255,255,1) !important;
+}
+
+.linhaBrancaTitulo td {
+   background-color: rgba(240,240,240,1) !important;
+}
+
+.linhaBrancaTitulo th {
+   background-color: rgba(240,240,240,1) !important;
+}
+
+.linhaBrancaTotal td {
+   background-color: rgba(230,230,230,1) !important;
+}
+
+.linhaPreta td {
+   background-color: rgba(42,50,58,1) !important;
+}
+
+.linhaPretaTitulo td {
+   background-color: rgba(27,35,43,1) !important;
+}
+
+.linhaPretaTitulo th {
+   background-color: rgba(27,35,43,1) !important;
+}
+
+.linhaPretaTotal td {
+   background-color: rgba(17,25,33,1) !important;
+}
+
+.codigo-filtro {
+  max-width: 15%;
+}
+
+.input {
+   margin-left: 8px;
+}
+
+.nome-filtro {
+  max-width: 300px;
+  min-width: 300px;
+  width: 300px;
+}
+
+.mt-20px {
+  margin-top: 20px;
+}
+
+.desktop {
+  display: inline-block !important;
+}
+
+.mobile {
+  display: none !important;
+}
+
+.ml-12px {
+  margin-left: 12px;
+}
+
+.px-0px {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.my-filtros {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.my-filtros-2 {
+   margin-top: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.botoes {
+   margin-top: 10px;
+}
+
+.codigo {
+  max-width: 10%;
+}
+
+.filtro {
+  height: calc(2.25rem + 2px);
+  margin-top: 22px;
+}
+
+.barraPesquisa {
+  margin-top: 30px !important;
+  max-width: 100% !important;
+}
+
+.table thead th {
+   border-bottom: 0px;
+}
+
+.table > .totalGeral {
+   border-top: none;
+}
+
+@media only screen and (max-width: 1656px) {
+   .responsive5 {
+      margin-top: -20px !important;
+   }
+}
+
+@media only screen and (max-width: 1627px) {
+  .desktop {
+    display: none !important;
+  }
+  
+  .mobile {
+    display: inline-block !important;
+  }
+
+  .responsive6 {
+      margin-top: -20px !important;
+  }
+}
+
+@media only screen and (max-width: 1486px) {
+   .responsive4 {
+      margin-top: -20px !important;
+   }
+
+   .responsive7 {
+      max-width: 20% !important;
+      min-width: 20% !important;
+      width: 20% !important;
+   }
+}
+
+@media only screen and (max-width: 1370px) {
+   .responsive1 {
+      max-width: 350px;
+      width: 350px;
+   }
+
+   .botoes {
+      margin-top: 10px !important;
+   }
+
+   .codigo {
+      max-width: 15%;
+   }
+
+   .responsive8 {
+      margin-top: 5px;
+   }
+
+   .responsive7 {
+      max-width: 23% !important;
+      min-width: 23% !important;
+      width: 23% !important;
+   }
+}
+
+@media only screen and (max-width: 1150px) {   
+   .responsive5 {
+      margin-top: -20px;
+   }
+}
+
+
+@media only screen and (max-width: 1096px) {   
+   .responsive5 {
+      margin-top: -20px !important;
+   }
+}
+
+@media only screen and (max-width: 1076px) {   
+   .responsive6 {
+      margin-top: -20px !important;
+   }
+}
+
+@media only screen and (max-width: 1022px) {
+   .responsive6 {
+      margin-top: -20px;
+   }
+}
+
+@media only screen and (max-width: 994px) {   
+   .botoes {
+      margin-top: 10px !important;
+   }
+}
+
+@media only screen and (max-width: 992px) {
+   .responsive2 {
+      display: block !important;
+   }
+
+   .responsive6 {
+      margin-top: 0px;
+   }
+}
+
+@media only screen and (max-width: 991px) {
+   .botoes {
+      margin-top: 10px !important;
+   }
+}
+
+@media only screen and (max-width: 906px) {
+   .responsive5 {
+      margin-top: -20px;
+   }
+}
+
+
+@media only screen and (max-width: 846px) {
+   .responsive5 {
+      margin-top: -20px !important;
+   }
+}
+
+@media only screen and (max-width: 826px) {
+   .responsive7 {
+      max-width: 250px !important;
+      min-width: 250px !important;
+      width: 250px !important;
+   }
+
+   .responsive9 {
+      margin-top: 5px;
+   }
+
+   .botoes {
+      margin-top: 10px !important;
+   }
+}
+
+@media only screen and (max-width: 795px) {
+   .my-filtros-2 {
+      margin-bottom: 20px;
+   }
+}
+
+@media only screen and (max-width: 772px) {
+   .responsive6 {
+      margin-top: -20px;
+   }
+}
+
+@media only screen and (max-width: 770px) {
+   .codigo {
+      max-width: 25% !important;
+      min-width: 25% !important;
+      width: 25% !important;
+   }
+
+   .responsive7 {
+      max-width: 50% !important;
+      min-width: 50% !important;
+      width: 50% !important;
+   }
+
+   .responsive10 {
+      max-width: 75% !important;
+      min-width: 75% !important;
+      width: 75% !important;
+   }
+
+   .responsive11 {
+      max-width: 75% !important;
+      min-width: 75% !important;
+      width: 75% !important;
+      margin-top: 5px !important;
+   }
+
+   .responsive12 {
+      margin-top: 5px !important;
+   }
+}
+
+@media only screen and (max-width: 748px) {
+   .responsive6 {
+      margin-top: -20px !important;
+   }
+
+   .responsive5 {
+      margin-top: -20px !important;
+   }
+}
+
+@media only screen and (max-width: 732px) {
+   .responsive4 {
+      margin-top: -20px !important;
+   }
+}
+
+@media only screen and (max-width: 725px) {
+  .desktop {
+    font-size: 12px !important;
+  }
+
+  .mobile {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 671px) {
+   .codigo {
+      max-width: 20%;
+      min-width: 20%;
+   }
+
+   .filtro {
+      margin-top: 22px;
+   }
+
+   .responsive6, .responsive5 {
+      margin-top: 0px;
+   }
+}
+
+@media only screen and (max-width: 638px) {
+   .botoes {
+      margin-top: 10px !important;
+   }
+}
+
+@media only screen and (max-width: 586px) {
+   .responsive5, .responsive6 {
+      margin-top: -20px !important;
+   }
+
+   .responsive13 {
+      margin-bottom: 0px !important;
+   }
+}
+
+@media only screen and (max-width: 571px) {
+   .botoes {
+      margin-top: -20px !important;
+   }
+
+   .responsive4 {
+      margin-left: 10px !important;
+   }
+}
+
+@media only screen and (max-width: 508px) {
+   .responsive1 {
+      max-width: 70% !important;
+      min-width: 70% !important;
+      width: 70% !important;
+   }
+
+   .my-filtros-2 {
+      margin-bottom: 10px !important;
+      margin-top: 10px !important;
+   }
+
+   .responsive4 {
+      margin-top: 10px !important;
+   }
+
+   .codigo {
+      max-width: 30% !important;
+      min-width: 30% !important;
+      width: 30% !important;
+   }
+
+   .responsive10, .responsive11 {
+      max-width: 70% !important;
+      min-width: 70% !important;
+      width: 70% !important;
+   }
+}
+
+@media only screen and (max-width: 454px) {
+   .responsive4 {
+      margin-left: 8px;
+   }
+}
+
+@media only screen and (max-width: 404px) {
+   .codigo {
+      max-width: 50% !important;
+      min-width: 50% !important;
+      width: 50% !important;
+   }
+
+   .responsive7, .responsive1 {
+      max-width: 100% !important;
+      min-width: 100% !important;
+      width: 100% !important;
+   }
+
+   .botoes {
+      margin-top: -20px !important;
+   }
+
+   .responsive10 {
+      margin-top: 10px !important;
+   }
+}
+
+@media only screen and (max-width: 366px) {
+   .responsive5 {
+      margin-top: -40px;
+   }
+}
+
+@media only screen and (max-width: 360px) {
+   .responsive4, .responsive5, .responsive6 {
+      margin-top: -20px;
+   }
+}
+
+@media only screen and (max-width: 358px) {
+   .responsive6, .responsive4 {
+      margin-left: 10px;
+   }
+
+   .responsive5 {
+      margin-top: -40px;
+      margin-left: 10px;
+   }
+}
+
+@media only screen and (max-width: 355px) {
+   .responsive1 {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+   }
+
+   .filtro {
+      margin-top: 22px;
+   }
+
+   .responsive6, .responsive4 {
+      margin-left: 10px;
+      margin-top: 0px;
+   }
+
+   .responsive5 {
+      margin-top: -20px;
+      margin-left: 10px;
+   }
+}
+
+@media only screen and (max-width: 315px) {
+   .barraPesquisa {
+      margin-top: 50px !important;
+   }
+
+   .codigo {
+      max-width: 75% !important;
+      min-width: 75% !important;
+      width: 75% !important;
+   }
+}
+
+@media only screen and (max-width: 256px) {
+   .responsive6 {
+      margin-top: -20px;
+   }
+}
+
+/* MODAL */
+
+@media only screen and (max-width: 992px) {
+   .codigo-filtro {
+      max-width: 150px;
+      width: 150px;
+      min-width: 150px;
+   }
+ }
+
+@media only screen and (max-width: 991px) {
+   .responsive-filtro-empresa {
+      margin-top: -20px;
+   }
+}
+
+@media only screen and (max-width: 581px) {
+   .responsive-filtro-empresa {
+      margin-top: -40px;
+   }
+}
+
+@media only screen and (max-width: 492px) {
+   .responsive-filtro-empresa {
+      margin-top: -20px;
+   }
+}
+
+@media only screen and (max-width: 402px) {
+   .responsive-filtro-empresa {
+      margin-top: -40px;
+   }
+}
+
+@media only screen and (max-width: 355px) {
+   .responsive-filtro-empresa {
+      margin-top: -20px;
+   }
+}
+
+@media only screen and (max-width: 345px) {
+   .nome-filtro {
+      max-width: 280px !important;
+      min-width: 280px !important;
+      width: 280px !important;
+   }
+}
+
+@media only screen and (max-width: 315px) {
+   .nome-filtro {
+      max-width: 260px !important;
+      min-width: 260px !important;
+      width: 260px !important;
+   }
+}
+
+@media only screen and (max-width: 295px) {
+   .nome-filtro {
+      max-width: 240px !important;
+      min-width: 240px !important;
+      width: 240px !important;
+   }
+}
+
+@media only screen and (max-width: 265px) {
+   .nome-filtro {
+      max-width: 220px !important;
+      min-width: 220px !important;
+      width: 220px !important;
+   }
+}
+
+@media only screen and (max-width: 250px) {
+   .nome-filtro {
+      max-width: 190px !important;
+      min-width: 190px !important;
+      width: 190px !important;
+   }
+}

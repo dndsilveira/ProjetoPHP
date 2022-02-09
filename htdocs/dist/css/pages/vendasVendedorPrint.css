@@ -1,0 +1,262 @@
+@page {size: landscape}
+
+* {
+   color: black;
+}
+
+footer > strong > a {
+   color: black;
+   text-decoration: none !important;
+}
+
+footer > strong {
+   font-weight: normal !important;
+   font-style: normal !important;
+   text-decoration: none !important;
+}
+
+a {
+   text-decoration: none !important;
+}
+
+.barraPesquisa {
+   display: none;
+}
+
+.table-responsive {
+   overflow: hidden;
+}
+
+.content {
+   margin-top: -50px;
+}
+
+table {
+   float: none;
+   page-break-inside: auto;
+   margin: 0;
+}
+
+tr {
+   float: none;
+   display: block;
+   page-break-inside: auto;
+   break-before: auto !important;
+   page-break-after: auto;
+}
+
+thead {
+   float: none;
+   display: table-header-group;
+}
+
+tfoot {
+   float: none;
+   display: table-footer-group;
+}
+
+.quebrarLinha {
+   float: none !important;
+   display: block !important;
+   page-break-inside: always !important;
+   page-break-after:always !important;
+}
+
+.table td, .table th {
+   padding: 0rem;
+   line-height: 15px;
+}
+
+.table tr {
+   font-size: 7px;
+}
+
+.table-responsive {
+   margin: 0;
+   float: none;
+}
+
+.no-borderPrint {
+   border: 0px !important;
+}
+
+.totalGeral {
+   border: 0px !important;
+}
+
+.totalGeralPrint {
+   min-width: 351px;
+   max-width: 351px;
+   width: 351px;
+   border: 0px !important;
+}
+
+.quantidadeGeralPrint {
+   min-width: 80px;
+   max-width: 80px;
+   width: 80px;
+   border: 0px !important;
+}
+
+.valorGeralPrint {
+   min-width: 100px;
+   max-width: 100px;
+   width: 100px;
+   border: 0px !important;
+}
+
+.mgGeralPrint {
+   min-width: 75px;
+   max-width: 75px;
+   width: 75px;
+   border: 0px !important;
+}
+
+.comissReaisGeralPrint {
+   min-width: 100px;
+   max-width: 100px;
+   width: 100px;
+   border: 0px !important;
+}
+
+.comissPorcGeralPrint {
+   min-width: 80px;
+   max-width: 80px;
+   width: 80px;
+   border: 0px !important;
+}
+
+.refGeralPrint {
+   min-width: 100px;
+   max-width: 100px;
+   width: 100px;
+   border: 0px !important;
+}
+
+.internoGeralPrint {
+   min-width: 140px;
+   max-width: 140px;
+   width: 140px;
+   border: 0px !important;
+}
+
+.linhaEmBrancoPrint {
+   min-width: 1035px;
+   max-width: 1035px;
+   width: 1035px;
+}
+
+.nomeVendedorPrint {
+   min-width: 1035px;
+   max-width: 1035px;
+   width: 1035px;
+   border: 0px !important;
+}
+
+.totalNomeVendedorPrint {
+   min-width: 351px;
+   max-width: 351px;
+   width: 351px;
+}
+
+.quantidadeVendedorPrint {
+   min-width: 80px;
+   max-width: 80px;
+   width: 80px;
+}
+
+.totalVendedorPrint {
+   min-width: 100px;
+   max-width: 100px;
+   width: 100px;
+}
+
+.mgVendedorPrint {
+   min-width: 75px;
+   max-width: 75px;
+   width: 75px;
+}
+
+.comissReaisVendedorPrint {
+   min-width: 100px;
+   max-width: 100px;
+   width: 100px;
+}
+
+.comissPorcVendedorPrint {
+   min-width: 80px;
+   max-width: 80px;
+   width: 80px;
+}
+
+.refVendedorPrint {
+   min-width: 100px;
+   max-width: 100px;
+   width: 100px;
+}
+
+.internoVendedorPrint {
+   min-width: 140px;
+   max-width: 140px;
+   width: 140px;
+}
+
+.dataPrint {
+   min-width: 85px;
+   max-width: 85px;
+   width: 85px;
+}
+
+.numeroPrint {
+   min-width: 90px;
+   max-width: 90px;
+   width: 90px;
+}
+
+.nomePrint {
+   min-width: 200px;
+   max-width: 200px;
+   width: 200px;
+}
+
+.qtdPrint {
+   min-width: 80px;
+   max-width: 80px;
+   width: 80px;
+}
+
+.totalPrint {
+   min-width: 100px;
+   max-width: 100px;
+   width: 100px;
+}
+
+.mgPrint {
+   min-width: 75px;
+   max-width: 75px;
+   width: 75px;
+}
+
+.comissReaisPrint {
+   min-width: 100px;
+   max-width: 100px;
+   width: 100px;
+}
+
+.comissPorcPrint {
+   min-width: 80px;
+   max-width: 80px;
+   width: 80px;
+}
+
+.refPrint {
+   min-width: 100px;
+   max-width: 100px;
+   width: 100px;
+}
+
+.internoPrint {
+   min-width: 140px;
+   max-width: 140px;
+   width: 140px;
+}

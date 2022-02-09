@@ -1,0 +1,334 @@
+.desktop {
+   display: inline-block !important;
+}
+
+.mobile {
+   display: none !important;
+}
+
+.inputs {
+   float: left;
+}
+
+.dadosFiliais {
+   list-style: none;
+   padding-right: 1rem;
+   margin-top: 15px;
+}
+
+.novoCliente {
+   line-height: 2.5;
+   padding-left: 1rem;
+}
+
+.responsive1, .responsive3, .responsive13 {
+   display: none;
+}
+
+.filtroNome {
+   max-width: 28%;
+}
+
+.filtroCodigo {
+   margin-left: 10px;
+   max-width: 10%;
+}
+
+.filtroCodigoBarras {
+   margin-left: 10px;
+   max-width: 10%;
+}
+
+.barraPesquisa {
+   margin-top: 30px !important;
+   max-width: 100% !important;
+}
+
+.filtros {
+   margin-left: 10px !important;
+}
+
+.filtroNome {
+   max-width: 38%;
+}
+
+.filtroCodigo {
+   margin-left: 10px;
+   max-width: 20%;
+}
+
+@media only screen and (max-width: 1627px) {
+   .desktop {
+      display: none !important;
+   }
+
+   .mobile {
+      display: inline-block !important;
+   }
+}
+
+@media only screen and (max-width: 992px) {
+   .sidebar-collapse .form-control-sidebar {
+      display: block !important;
+   }
+
+   .modal-lg {
+      max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+   .modal-lg {
+      max-width: 95%;
+  }
+}
+
+@media only screen and (max-width: 795px) {
+   .responsive1 {
+      display: block !important;
+  }
+
+  .responsive2 {
+     max-width: 15%;
+     min-width: 15%;
+     width: 15%;
+  }
+
+  .responsive4 {
+   max-width: 45%;
+   min-width: 45%;
+   width: 45%;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+   .desktop {
+      font-size: 12px !important;
+   }
+
+   .mobile {
+      font-size: 12px !important;
+   }
+}
+
+@media only screen and (max-width: 695px) {
+
+  .responsive4 {
+     max-width: 40%;
+     min-width: 40%;
+     width: 40%;
+  }
+
+  .responsive1 {
+      display: none !important;
+   }
+
+   .responsive6 {
+      max-width: 40%;
+      min-width: 40%;
+      width: 40%;
+   }
+
+   .responsive7 {
+      max-width: 50%;
+      min-width: 50%;
+      width: 50%;
+   }
+}
+
+@media only screen and (max-width: 620px) {
+   .filtroNome {
+      max-width: 43%;
+   }
+   
+   .filtroCodigo {
+      margin-left: 10px;
+      max-width: 25%;
+   }
+}
+
+@media only screen and (max-width: 575px) {
+   .novoClienteBtn {
+      margin-top: 15px;
+   }
+}
+
+@media only screen and (max-width: 563px) {
+   .responsive5 {
+      padding: 0.375rem 0.4rem;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+   .novoCliente {
+      font-size: 1.35rem;
+   }
+}
+
+@media only screen and (max-width: 540px) {
+   .novoCliente {
+      line-height: 4.2;
+   }
+
+   .filtroNome {
+      max-width: 55%;
+   }
+   
+   .filtroCodigo {
+      max-width: 30%;
+   }
+}
+
+@media only screen and (max-width: 515px) {
+  .codigos {
+     max-width: 30%;
+     min-width: 30%;
+     width: 30%;
+  }
+
+  .responsive1 {
+      display: none !important;
+   }
+
+   .responsive7 {
+      max-width: 60%;
+      min-width: 60%;
+      width: 60%;
+   }
+
+   .responsive8 {
+      max-width: 50%;
+      min-width: 50%;
+      width: 50%;
+   }
+
+   .responsive9 {
+      max-width: 60%;
+      min-width: 60%;
+      width: 60%;
+   }
+
+   .responsive10 {
+      max-width: 40%;
+      min-width: 40%;
+      width: 40%;
+   }
+   
+   .responsive4 {
+      max-width: 70%;
+      min-width: 70%;
+      width: 70%;
+   }
+}
+
+@media only screen and (max-width: 455px) {
+   .responsive11 {
+      max-width: 40%;
+      min-width: 40%;
+      width: 40%;
+   }
+
+   .responsive12, .responsive8 {
+      max-width: 60%;
+      min-width: 60%;
+      width: 60%;
+   }
+}
+
+@media only screen and (max-width: 415px) {
+   .responsive13 {
+      display: block;
+   }
+
+   .responsive14 {
+      max-width: 70%;
+      min-width: 70%;
+      width: 70%;
+   }
+
+   .responsive15 {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+   }
+
+   .responsive6, .responsive7 {
+      max-width: 70%;
+      min-width: 70%;
+      width: 70%;
+   }
+}
+
+@media only screen and (max-width: 390px) {
+   .responsive5 {
+      padding: 0.375rem 0.2rem;
+      font-size: 0.85rem;
+   }
+}
+
+@media only screen and (max-width: 350px) {
+   .responsive5 {
+      padding: 0.15rem 0.15rem;
+   }
+
+   .novoCliente {
+      font-size: 1.25rem;
+   }
+
+   .responsive7, .responsive3, .responsive12 {
+      max-width: 85%;
+      min-width: 85%;
+      width: 85%;
+   }
+
+   .responsive9 {
+      max-width: 75%;
+      min-width: 75%;
+      width: 75%;
+   }
+
+   .responsive8 {
+      max-width: 65%;
+      min-width: 65%;
+      width: 65%;
+   }
+}
+
+@media only screen and (max-width: 335px) {
+   .responsive7, .responsive3, .responsive9, .responsive8 {
+      max-width: 85%;
+      min-width: 85%;
+      width: 85%;
+   }
+
+   .codigos {
+      max-width: 50%;
+      min-width: 50%;
+      width: 50%;
+   }
+}
+
+@media only screen and (max-width: 327px) {
+   .novoCliente {
+      font-size: 1.25rem;
+      padding-left: 0px;
+      padding-right: 0px;
+   }
+
+   .dadosFiliais {
+      padding-left: 0px;
+      padding-right: 0px;
+   }
+}
+
+@media only screen and (max-width: 302px) {
+   .novoCliente {
+      font-size: 1.15rem;
+   }
+}
+
+@media only screen and (max-width: 285px) {
+   .novoCliente {
+      font-size: 1rem;
+   }
+}

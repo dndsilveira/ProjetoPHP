@@ -1,0 +1,1385 @@
+.desktop {
+   display: inline-block !important;
+}
+
+.mobile {
+   display: none !important;
+}
+
+.lbl-group {
+   margin: 0px 12px 0px 12px;
+}
+
+.lbl-desc {
+   font-weight: 700;
+}
+
+.w100px {
+   max-width: 100px;
+}
+
+.w350px {
+   max-width: 350px;
+}
+
+.mt-24px {
+   margin-top: 24px;
+}
+
+.mt-28px {
+   margin-top: 28px;
+}
+
+.ml--7px {
+   margin-left: -7.5px;
+}
+
+.ml-12px {
+   margin-left: 12px;
+}
+
+.ml-24px {
+   margin-left: 24px;
+}
+
+.filtroDataInicio {
+   max-width: 100% !important;
+   margin: 0px 12px 0px 12px;
+}
+
+.filtroDataFinal {
+   max-width: 100% !important;
+   margin: 0px 12px 0px 12px;
+}
+
+.filtroGeral {
+   margin: 0px 12px 0px 12px;
+}
+
+.responsive9 {
+   max-width: 12% !important;
+   min-width: 12% !important;
+}
+
+.codigo {
+    max-width: 12%;
+}
+
+.codigo3 {
+    min-width: 10%;
+    max-width: 10%;
+}
+
+.codigo4 {
+    min-width: 15%;
+}
+
+.codigo5 {
+    min-width: 8%;
+    max-width: 8%;
+}
+
+.estadoCliente {
+    max-width: 6%;
+}
+
+.documentoCliente {
+    max-width: 20%;
+}
+
+.CEPCliente {
+    max-width: 12%;
+}
+
+.lancar {
+    margin-top: 32px;
+}
+
+.botoes {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.responsive31 {
+   margin-top: 18px;
+}
+
+.responsive39 {
+   display: none;
+}
+
+.responsive42 {
+   margin-top: 15px;
+}
+
+@media only screen and (max-width: 1799px) {
+   .responsive33 {
+      -webkit-flex: 0 0 17.666667%;
+      -ms-flex: 0 0 17.666667%;
+      flex: 0 0 17.666667%;
+      max-width: 17.666667%;
+   }
+
+   .responsive24 {
+      margin-left: 30px;
+   }
+}
+
+@media only screen and (max-width: 1778px) {
+   .responsive33 {
+      -webkit-flex: 0 0 18.666667%;
+      -ms-flex: 0 0 18.666667%;
+      flex: 0 0 18.666667%;
+      max-width: 18.666667%;
+   }
+}
+
+@media only screen and (max-width: 1705px) {
+   .responsive33 {
+      -webkit-flex: 0 0 19.666667%;
+      -ms-flex: 0 0 19.666667%;
+      flex: 0 0 19.666667%;
+      max-width: 19.666667%;
+   }
+}
+
+@media only screen and (max-width: 1675px) {
+    .responsive30 {
+        margin-right: 100px;
+    }
+
+    .responsive21 {
+        min-width: 150px;
+        width: 150px;
+    }
+
+    .responsive22 {
+        min-width: 150px;
+        width: 150px; 
+    }
+
+    .responsive23 {
+        max-width: 300px !important;
+        min-width: 300px !important;
+        width: 300px !important; 
+    }
+
+    .codigo5 {
+        min-width: 11%;
+        max-width: 11%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .responsive11 {
+        min-width: 20%;
+        max-width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1581px) {
+    .responsive30 {
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 1531px) {
+    .responsive30 {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .codigo {
+        max-width: 15%;
+    }
+    
+    .estadoCliente {
+        max-width: 9%;
+    }
+
+    .responsive1 {
+        max-width: 50%;
+    }
+
+    .documentoCliente {
+        min-width: 23%;
+    }
+
+    .codigo3 {
+        min-width: 14%;
+        max-width: 14%;
+    }
+
+    .responsive9 {
+        min-width: 15% !important;
+        max-width: 15% !important;
+    }
+
+    .responsive7 {
+        max-width: 20%;
+    }
+
+    .responsive12 {
+        max-width: 40%;
+    }
+
+    .responsive39 {
+       display: block;
+    }
+
+    .responsive5 {
+       min-width: 45%;
+    }
+
+    .responsive43 {
+       margin-bottom: 0rem;
+    }
+}
+
+@media only screen and (max-width: 1433px) {
+   .responsive31 {
+      margin-top: 36px;
+   }
+
+   .codigo4 {
+      max-width: 18%;
+      min-width: 18%;
+      width: 18%;
+   }
+}
+
+@media only screen and (max-width: 1350px) {
+    .CEPCliente {
+        max-width: 18%;
+    }
+
+    .responsive2 {
+        min-width: 30%;
+    }
+
+    .col-8 {
+        max-width: 20%;
+    }
+
+    .responsive3 {
+        min-width: 25%;
+    }
+
+    .codigo5 {
+        min-width: 15%;
+        max-width: 15%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .codigo {
+        max-width: 20%;
+    }
+
+    .responsive3 {
+        min-width: 25%;
+    }
+
+    .col-8 {
+        display: none;
+    }
+
+    .responsive39 {
+       max-width: 15%;
+       min-width: 15%;
+       width: 15%;
+    }
+}
+
+@media only screen and (max-width: 1294px) {
+   .responsive31 {
+      margin-top: 18px;
+   }
+}
+
+@media only screen and (max-width: 1262px) {
+   .codigo4 {
+      max-width: 20%;
+      min-width: 20%;
+      width: 20%;
+   }
+}
+
+@media only screen and (max-width: 1250px) {
+    .codigo3 {
+        min-width: 16%;
+        max-width: 16%;
+    }
+
+    .responsive9 {
+        min-width: 17% !important;
+        max-width: 17% !important;
+    }
+
+    .responsive7 {
+        max-width: 20%;
+    }
+
+    .responsive12 {
+        max-width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .responsive23 {
+        max-width: 270px !important;
+        min-width: 270px !important;
+        width: 270px !important;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+   .responsive24 {
+      display: block !important;
+   }
+
+   .responsive27 {
+      margin-top: 0px !important;
+   }
+
+   .responsive34  {
+      position: relative !important;
+      width: 100% !important;
+      padding-right: 7.5px !important;
+      padding-left: 7.5px !important;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+   }
+
+   .responsive35, .responsive27 {
+      float: left !important;
+   }
+
+   .responsive29 {
+      margin-left: 0px;
+   }
+
+   .responsive25 {
+      margin-left: 20px;
+   }
+}
+
+@media only screen and (max-width: 1199px) {
+    .responsive15 {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+   .responsive23 {
+      max-width: 250px !important;
+      min-width: 250px !important;
+      width: 250px !important;
+   }
+}
+
+@media only screen and (max-width: 1150px) {
+    .documentoCliente {
+        min-width: 30%;
+    }
+
+    .responsive2 {
+        min-width: 40%;
+    }
+
+    .responsive3 {
+        min-width: 35%;
+    }
+
+    .estadoCliente {
+        min-width: 15%;
+    }
+
+    .CEPCliente {
+        min-width: 22%;
+    }
+
+    .col-8 {
+        display: inline-block;
+        min-width: 30%;
+    }
+
+    .codigo {
+        min-width: 25%;
+    }
+
+    .responsive4 {
+        min-width: 50%;
+    }
+
+    .responsive6 {
+        display: none;
+    }
+
+    .codigo3 {
+        min-width: 20%;
+    }
+
+    .responsive9 {
+        min-width: 22% !important;
+        max-width: 22% !important;
+    }
+
+    .codigo4 {
+        min-width: 25%;
+    }
+
+    .responsive7 {
+        display: none;
+    }
+
+    .responsive13 {
+        max-width: 20%;
+    }
+
+    .codigo5 {
+        min-width: 18%;
+        max-width: 18%;
+    }
+
+    .responsive22 {
+        min-width: 100px;
+        width: 100px;
+    }
+
+    .responsive39 {
+      max-width: 10%;
+      min-width: 10%;
+      width: 10%;
+   }
+
+   .responsive44, .responsive45 {
+      margin-top: 15px;
+   }
+}
+
+@media only screen and (max-width: 1080px) {
+    .responsive23 {
+        max-width: 200px !important;
+        min-width: 200px !important;
+        width: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .responsive21 {
+        min-width: 135px;
+        width: 135px;
+    }
+}
+
+@media only screen and (max-width: 1026px) {
+   .codigo4 {
+      max-width: 27%;
+      min-width: 27%;
+      width: 27%;
+   }
+}
+
+@media only screen and (max-width: 992px) {
+    .sidebar-collapse .form-control-sidebar {
+        display: block !important;
+    }
+
+    .modal-xl {
+        max-width: 100% !important;
+    }
+
+    .responsive15 {
+        margin-left: 12px;
+    }
+
+    .responsive17 {
+        margin-left: 12px;
+    }
+
+    .responsive18 {
+        margin-top: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .responsive22 {
+        min-width: 150px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 952px) {
+    .responsive15 {
+        margin-left: 0px;
+        width: 240px;
+        min-width: 240px;;
+    }
+
+    .responsive16 {
+        width: 240px;
+        min-width: 240px;;
+    }
+
+    .responsive17 {
+        margin-left: 24px;
+    }
+
+    .responsive18 {
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .responsive4 {
+        min-width: 70%;
+    }
+
+    .responsive2 {
+        min-width: 50%;
+    }
+
+    .documentoCliente {
+        min-width: 50%;
+    }
+
+    .col-8 {
+        display: none;
+    }
+
+    .codigo3 {
+        min-width: 25%;
+    }
+
+    .codigo4 {
+        min-width: 25%;
+    }
+
+    .responsive13 {
+        display: none;
+    }
+
+    .codigo5 {
+        min-width: 25%;
+        max-width: 25%;
+    }
+
+    .responsive11 {
+        min-width: 75%;
+        max-width: 75%;
+    }
+    
+    .responsive14 {
+        min-width: 25%;
+        max-width: 25%;
+    }
+
+    .lancar {
+        margin-top: 10px !important;
+    }
+
+    .responsive8 {
+        min-width: 60%;
+        max-width: 60%;
+    }
+
+    .responsive12 {
+        display: none;
+    }
+
+    .responsive39 {
+      display: none;
+   }
+}
+
+@media only screen and (max-width: 780px) {
+    .responsive22 {
+        min-width: 175px !important;
+        width: 175px !important;
+    }
+
+    .responsive23 {
+        max-width: 360px !important;
+        min-width: 360px !important;
+        width: 360px !important;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .responsive9 {
+        max-width: 30% !important;
+        min-width: 30% !important;
+    }
+
+    .responsive8 {
+        max-width: 70%;
+        min-width: 70%;
+    }
+
+    .responsive12 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 746px) {
+   .codigo4 {
+      max-width: 29%;
+      min-width: 29%;
+      width: 29%;
+   }
+}
+
+@media only screen and (max-width: 741px) {
+    .responsive16 {
+        margin-left: 0px;
+    }
+
+    .responsive19 {
+        width: 260px;
+        min-width: 260px;
+    }
+
+    .responsive15 {
+        margin-left: 12px;
+    }
+}
+
+@media only screen and (max-width: 732px) {
+    .responsive24 {
+        display: block !important;
+    }
+
+    .responsive21 {
+        margin-left: 0px !important;
+        min-width: 160px;
+        width: 160px;
+    }
+
+    .responsive25 {
+        margin-left: 12px;
+    }
+}
+
+@media only screen and (max-width: 721px) {
+   .responsive27 {
+      margin-top: 0px;
+   }
+}
+
+@media only screen and (max-width: 690px) {
+   .codigo4 {
+      max-width: 32%;
+      min-width: 32%;
+      width: 32%;
+   }
+}
+
+@media only screen and (max-width: 650px) {
+    .codigo {
+        min-width: 30%;
+    }
+
+    .responsive3 {
+        min-width: 70%;
+    }
+
+    .estadoCliente {
+        min-width: 20%;
+    }
+
+    .CEPCliente {
+        min-width: 40%;
+    }
+
+    .responsive5 {
+        min-width: 50%;
+    }
+
+    .codigo3 {
+        min-width: 30%;
+    }
+
+    .responsive8 {
+        min-width: 70%;
+    }
+
+    .codigo4 {
+        min-width: 35%;
+    }
+
+    .lancar {
+        margin-top: 10px !important;
+    }
+
+    .responsive14 {
+        min-width: 50%;
+        max-width: 50%;
+    }
+
+    .responsive13 {
+        display: inline-block;
+        max-width: 45%;
+        min-width: 45%;
+    }
+
+    .responsive41 {
+      min-width: 19% !important;
+    }
+
+    .responsive45 {
+       margin-top: 0px;
+    }
+
+    .responsive46 {
+       margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 646px) {
+   .novo-pedido {
+      margin-bottom: 10px;
+   }
+
+   .responsive36 {
+      padding-left: 0rem !important;
+      margin-left: -30px !important;
+   }
+
+   .responsive27 {
+      padding-left: 0rem !important;
+      margin-left: -25px !important;
+   }
+}
+
+@media only screen and (max-width: 617px) {
+    .responsive15 {
+        width: 260px;
+        min-width: 260px;
+    }
+
+    .responsive16 {
+        width: 260px;
+        min-width: 260px;
+    }
+
+    .responsive17 {
+        margin-left: 12px;
+    }
+
+    .responsive18 {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .responsive21 {
+        margin-left: -7.5px;
+        min-width: 170px;
+        width: 170px;
+        float: left;
+    }
+
+    .responsive26 {
+        margin-left: 0px !important;
+    }
+
+    .responsive27 {
+        float: left;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .responsive28 {
+        margin-left: -7.5px !important;
+    }
+
+    .responsive25 {
+        margin-left: 12px;
+    }
+
+    .responsive36 {
+      padding-left: 7.5px !important;
+      margin-left: 0px !important;
+   }
+
+   .responsive27 {
+      padding-left: 7.5px !important;
+      margin-left: 0px !important;
+   }
+
+   .responsive28, .responsive37, .responsive34 {
+      margin-left: -30px !important;
+   }
+}
+
+@media only screen and (max-width: 605px) {
+   .responsive36 {
+      max-width: 150px;
+      min-width: 150px;
+      width: 150px;
+   }
+}
+
+@media only screen and (max-width: 602px) {
+   .codigo4 {
+      max-width: 42%;
+      min-width: 42%;
+      width: 42%;
+   }
+}
+
+@media only screen and (max-width: 598px) {
+   .responsive27 {
+      margin-top: 24px;
+      margin-left: 12px;
+   }
+}
+
+@media only screen and (max-width: 590px) {
+    .botoes {
+        margin-right: 0px !important;
+    }
+
+    .codigo3 {
+        min-width: 35%;
+    }
+
+    .responsive8 {
+        min-width: 100%;
+    }
+
+    .codigo4 {
+        min-width: 35%;
+    }
+
+    .responsive9 {
+        min-width: 50% !important;
+        max-width: 50% !important;
+    }
+
+    .responsive13 {
+        display: none;
+    }
+
+    .codigo5 {
+        min-width: 30%;
+        max-width: 30%;
+    }
+
+    .responsive11 {
+        min-width: 70%;
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .botoes {
+        margin-left: 0px;
+        margin-right: 10px !important;
+        margin-top: 10px;
+    }
+
+    .codigo {
+        min-width: 35%;
+    }
+
+    .codigo3 {
+        min-width: 40%;
+    }
+
+    .responsive3 {
+        min-width: 60%;
+    }
+
+    .responsive4 {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .responsive15 {
+        min-width: 230px;
+        width: 230px;
+    }
+
+    .responsive16 {
+        min-width: 230px;
+        width: 230px;
+    }
+
+    .responsive47 {
+       margin-top: 15px;
+    }
+
+    .responsive40 {
+      min-width: 25%;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+   .responsive36 {
+      max-width: 170px;
+      min-width: 170px;
+      width: 170px;
+   }
+
+   .responsive29 {
+      margin-left: -30px !important;
+   }
+
+   .responsive27 {
+      margin-left: 10px !important;
+      margin-top: 20px !important;
+   }
+}
+
+@media only screen and (max-width: 542px) {
+   .codigo4 {
+      max-width: 50%;
+      min-width: 50%;
+      width: 50%;
+   }
+}
+
+@media only screen and (max-width: 533px) {
+    .responsive19 {
+        min-width: 230px;
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 521px) {
+    .responsive16 {
+        min-width: 200px;
+        width: 200px;
+    }
+
+    .responsive15 {
+        min-width: 200px;
+        width: 200px;
+    }
+
+    .responsive20 {
+        min-width: 80px;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+   .responsive36 {
+      max-width: 150px;
+      min-width: 150px;
+      width: 150px;
+   }
+}
+
+@media only screen and (max-width: 505px) {
+    .responsive19 {
+        max-width: 200px;
+    }
+
+    .responsive16 {
+        max-width: 200px;
+    }
+
+    .responsive15 {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 502px) {
+   .responsive27 {
+      margin-top: 0px !important;
+      margin-left: 0px;
+   }
+
+   .responsive25 {
+      margin-left: 12px !important;
+   }
+
+   .responsive29 {
+      margin-right: 200px;
+   }
+
+   .responsive36 {
+      max-width: 170px;
+      min-width: 170px;
+      width: 170px;
+   }
+
+   .responsive37 {
+      margin-left: -30px !important;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+    .codigo {
+        min-width: 40%;
+    }
+
+    .codigo4 {
+        min-width: 60%;
+    }
+
+    .codigo5 {
+        min-width: 40%;
+        max-width: 40%;
+    }
+
+    .responsive40 {
+      min-width: 30% !important;
+    }
+
+    .responsive5 {
+      min-width: 70% !important;
+    }
+
+    .responsive11 {
+        min-width: 60%;
+        max-width: 60%;
+    }
+
+    .responsive39 {
+       display: block;
+       max-width: 50%;
+       min-width: 50%;
+       width: 50%;
+    }
+
+    .responsive41 {
+      min-width: 25% !important;
+    }
+
+    .responsive48 {
+       margin-top: 25px;
+       margin-bottom: 0rem;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .responsive19 {
+        max-width: 180px;
+    }
+
+    .responsive16 {
+        max-width: 180px;
+    }
+
+    .responsive15 {
+        max-width: 180px;
+    }
+}
+
+@media only screen and (max-width: 463px) {
+   .responsive16, .responsive15 {
+      min-width: 250px;
+      width: 250px;
+   }
+
+   .responsive15 {
+      margin-left: 0px;
+   }
+
+   .responsive17 {
+      margin-left: 24px;
+      margin-top: 24px;
+   }
+   
+   .responsive19 {
+      min-width: 250px;
+      width: 250px;
+      margin-left: 0px;
+   }
+
+   .responsive20 {
+      min-width: 120px;
+      width: 120px;
+   }
+}
+
+@media only screen and (max-width: 444px) {
+   .responsive23 {
+      max-width: 300px !important;
+      min-width: 300px !important;
+      width: 300px !important;
+   }
+}
+
+@media only screen and (max-width: 435px) {
+   .responsive21 {
+      max-width: 140px;
+      min-width: 140px;
+      width: 140px;
+   }
+}
+
+@media only screen and (max-width: 430px) {
+    .codigo {
+        min-width: 50%;
+    }
+
+    .codigo3 {
+        min-width: 50%;
+    }
+
+    .codigo4 {
+        min-width: 70%;
+    }
+
+    .responsive8 {
+        min-width: 100%;
+    }
+
+    .responsive3 {
+        min-width: 65%;
+        margin-top: 0px !important;
+    }
+
+    .responsive40 {
+      min-width: 50% !important;
+    }
+
+    .estadoCliente {
+        min-width: 35%;
+    }
+
+    .CEPCliente {
+        min-width: 50%;
+        margin-top: 15px;
+    }
+    
+    .documentoCliente {
+        min-width: 60%;
+    }
+
+    .responsive5 {
+        min-width: 100%;
+    }
+
+    .responsive2 {
+        min-width: 100%;
+    }
+
+    .responsive41 {
+      min-width: 45% !important;
+    }
+
+    .responsive41 {
+       margin-top: 25px !important;
+    }
+
+    .responsive5 {
+       margin-top: 5px !important;
+       min-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .codigo3 {
+        min-width: 100%;
+    }
+
+    .responsive9 {
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .lancar {
+        margin-top: 15px !important;
+    }
+
+    .codigo5 {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .responsive11 {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .responsive14 {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 391px) {
+   .responsive16, .responsive15 {
+      min-width: 270px;
+      width: 270px;
+   }
+
+   .responsive17 {
+      margin-top: 0px;
+      margin-left: 12px;
+   }
+
+   .codigo4 {
+      max-width: 80%;
+      min-width: 80%;
+      width: 80%;
+   }
+}
+
+@media only screen and (max-width: 375px) {
+   .responsive21 {
+      max-width: 170px;
+      min-width: 170px;
+      width: 170px;
+   }
+
+   .responsive38 {
+      margin-left: -30px !important;
+   }
+}
+
+@media only screen and (max-width: 370px) {
+    .responsive23 {
+        max-width: 250px !important;
+        min-width: 250px !important;
+        width: 250px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+   .responsive15 {
+      max-width: 270px;
+      min-width: 250px;
+   }
+
+   .responsive16 {
+      max-width: 270px;
+      min-width: 250px;
+   }
+
+   .responsive17 {
+      margin-left: 12px;
+   }
+
+   .responsive18 {
+      margin-top: 0px;
+   }
+}
+
+@media only screen and (max-width: 350px) {
+    .codigo4 {
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .codigo {
+        min-width: 100%;
+    }
+
+    .responsive3 {
+        min-width: 100%;
+    }
+
+    .documentoCliente {
+        min-width: 100%;
+    }
+
+    .CEPCliente {
+        min-width: 65%;
+    }
+
+    .estadoCliente {
+      margin-top: 15px !important;
+   }
+}
+
+@media only screen and (max-width: 391px) {
+   .responsive16, .responsive15 {
+      min-width: 250px;
+      width: 250px;
+   }
+}
+
+@media only screen and (max-width: 334px) {
+   .responsive27 {
+      font-size: 0.9rem;
+   }
+}
+
+@media only screen and (max-width: 331px) {
+   .novo-pedido {
+       margin-bottom: 5px;
+   }
+}
+
+@media only screen and (max-width: 320px) {
+    .responsive23 {
+        max-width: 230px !important;
+        min-width: 230px !important;
+        width: 230px !important;
+    }
+
+    .responsive27 {
+        font-size: 0.85rem;
+    }
+
+    .responsive25 {
+        margin-left: 0px !important;
+    }
+
+    .responsive41 {
+      min-width: 75% !important;
+    }
+
+    .responsive39 {
+       display: none;
+    }
+}
+
+@media only screen and (max-width: 301px) {
+   .responsive15, .responsive16, .responsive19 {
+      max-width: 210px !important;
+      min-width: 210px !important;
+      width: 210px !important;
+   }
+
+   .responsive20 {
+      margin-left: 0px;
+      min-width: 130px;
+      width: 130px;
+   }
+
+   .responsive23 {
+      max-width: 210px !important;
+      min-width: 210px !important;
+      width: 210px !important;
+   }
+}
+
+@media only screen and (max-width: 297px) {
+
+   .responsive27 {
+      font-size: 1rem;
+   }
+
+   .responsive25 {
+      margin-left: -30px !important;
+      margin-right: 10px;
+   }
+
+}
+
+@media only screen and (max-width: 280px) {
+    .responsive23 {
+        max-width: 190px !important;
+        min-width: 190px !important;
+        width: 190px !important;
+    }
+}
+
+@media only screen and (max-width: 265px) {
+   .responsive15, .responsive16, .responsive19 {
+      max-width: 190px !important;
+      min-width: 190px !important;
+      width: 190px !important;
+   }
+}

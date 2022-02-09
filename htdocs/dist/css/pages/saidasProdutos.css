@@ -1,0 +1,186 @@
+table { page-break-inside:auto }
+tr    { page-break-inside:avoid; page-break-after:auto }
+thead { display:table-header-group }
+tfoot { display:table-footer-group }
+
+.linhaBranca td {
+   background-color: rgba(255,255,255,1) !important;
+}
+
+.linhaBrancaTitulo td {
+   background-color: rgba(240,240,240,1) !important;
+}
+
+.linhaBrancaTitulo th {
+   background-color: rgba(240,240,240,1) !important;
+}
+
+.linhaBrancaTotal td {
+   background-color: rgba(230,230,230,1) !important;
+}
+
+.linhaPreta td {
+   background-color: rgba(42,50,58,1) !important;
+}
+
+.linhaPretaTitulo td {
+   background-color: rgba(27,35,43,1) !important;
+}
+
+.linhaPretaTitulo th {
+   background-color: rgba(27,35,43,1) !important;
+}
+
+.linhaPretaTotal td {
+   background-color: rgba(17,25,33,1) !important;
+}
+
+.input {
+   margin-left: 8px;
+}
+
+.codigo {
+  max-width: 10%;
+}
+
+.botoes {
+   margin-top: 10px;
+}
+
+.filtro {
+  height: calc(2.25rem + 2px);
+  margin-top: 22px;
+}
+
+.nomeProduto {
+   max-width: 35%;
+   min-width: 35%;
+   width: 35%;
+}
+
+.barraPesquisa {
+  margin-top: 30px !important;
+  max-width: 100% !important;
+}
+
+.table thead th {
+   border-bottom: 0px;
+}
+
+.table > .totalGeral {
+   border-top: none;
+}
+
+@media only screen and (max-width: 1559px) {
+   .codigo {
+      max-width: 12%;
+   }
+
+   .dataInicio, .dataFinal {
+      max-width: 35%;
+      min-width: 35%;
+      width: 35%;
+   }
+
+}
+
+@media only screen and (max-width: 1330px) {
+   .codigo {
+      max-width: 15%;
+   }
+
+}
+
+@media only screen and (max-width: 1130px) {
+   .codigo {
+      max-width: 25%;
+   }
+
+}
+
+@media only screen and (max-width: 865px) {
+   .nomeProduto {
+      max-width: 45%;
+      min-width: 45%;
+      width: 45%;
+   }
+}
+
+@media only screen and (max-width: 830px) {
+   .codigo {
+      max-width: 25%;
+      min-width: 25%;
+      width: 25%;
+   }
+
+}
+
+@media only screen and (max-width: 750px) {
+   .nomeProduto {
+      max-width: 70%;
+      min-width: 70%;
+      width: 70%;
+   }
+
+   .dataInicio, .dataFinal {
+      max-width: 50%;
+      min-width: 50%;
+      width: 50%;
+   }
+
+   .botoes {
+      margin-left: 10px;
+      margin-right: 0px;
+      margin-top: -20px;
+   }
+
+}
+
+@media only screen and (max-width: 670px) {
+
+   .codigo {
+      max-width: 30%;
+      min-width: 30%;
+      width: 30%;
+   }
+
+}
+
+@media only screen and (max-width: 520px) {
+   .dataInicio, .dataFinal {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+   }
+
+}
+
+@media only screen and (max-width: 485px) {
+   .dataInicio, .dataFinal {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+   }
+
+   .codigo {
+      max-width: 50%;
+      min-width: 50%;
+      width: 50%;
+   }
+
+   .nomeProduto {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+   }
+
+}
+
+@media only screen and (max-width: 320px) {
+   .codigo {
+      max-width: 70%;
+      min-width: 70%;
+      width: 70%;
+   }
+
+}
